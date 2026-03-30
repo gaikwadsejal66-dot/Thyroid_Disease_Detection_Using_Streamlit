@@ -64,14 +64,12 @@ def main():
     st.markdown(title_css, unsafe_allow_html=True)
 
     # Sidebar
-    st.sidebar.write("<h1 style='color: #F63366; font-size: 36px;'>Group 17</h1>", unsafe_allow_html=True)
-    # Sidebar
     st.sidebar.write("<h1 style='color: #F63366; font-size: 36px;'>Group 10</h1>", unsafe_allow_html=True)
-    st.sidebar.write("<h3 style='color: #F63366; font-size: 28px;'>SEJAL MARUTI GAIKWAD</h3>", unsafe_allow_html=True)
-    st.sidebar.write("<h3 style='color: #F63366; font-size: 28px;'>VAISHNAVI SUBHASH KUMAVAT</h3>", unsafe_allow_html=True)
-    st.sidebar.write("<h3 style='color: #F63366; font-size: 28px;'>RUTUJA RAJENDRA PHAD</h3>", unsafe_allow_html=True)
+    st.sidebar.write("<h5 style='color: #F63366; font-size: 24px;'>SEJAL MARUTI GAIKWAD</h5>", unsafe_allow_html=True)
+    st.sidebar.write("<h5 style='color: #F63366; font-size: 24px;'>VAISHNAVI SUBHASH KUMAVAT</h5>", unsafe_allow_html=True)
+    st.sidebar.write("<h5 style='color: #F63366; font-size: 24px;'>RUTUJA RAJENDRA PHAD</h5>", unsafe_allow_html=True)
 
-    #st.sidebar.write("GitHub profile : (https://github.com/HarshJadhav100/thyroid-disesase-detection_using_streamlit)")
+    #st.sidebar.write("GitHub profile : (https://github.com/gaikwadsejal66-dot/Thyroid_Disease_Detection_Using_Streamlit)")
 
     st.sidebar.title("About Project :")
     st.sidebar.write("This Streamlit app serves as a Thyroid Diagnosis Predictor. It utilizes machine learning to predict thyroid diagnosis based on various patient attributes such as age, sex, medical history, and laboratory test results. Users can input patient data and receive an immediate diagnosis prediction, helping medical professionals make informed decisions efficiently.")
