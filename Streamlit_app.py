@@ -76,27 +76,27 @@ def main():
 
     st.sidebar.title("Attributes Information :")
     st.sidebar.write("""
-        - Age: Age of the patient (int)
-        - Sex: Sex patient identifies (str)
-        - On Thyroxine: Whether patient is on thyroxine (bool)
-        - Query on Thyroxine: Whether patient is on thyroxine (bool)
-        - On Antithyroid Meds: Whether patient is on antithyroid meds (bool)
-        - Sick: Whether patient is sick (bool)
-        - Pregnant: Whether patient is pregnant (bool)
+        - Age: Age of the patient 
+        - Sex: Sex patient identifies
+        - On Thyroxine: Whether patient is on thyroxine 
+        - Query on Thyroxine: Whether patient is on thyroxine 
+        - On Antithyroid Meds: Whether patient is on antithyroid meds 
+        - Sick: Whether patient is sick 
+        - Pregnant: Whether patient is pregnant 
         - Thyroid Surgery: Whether patient has undergone thyroid surgery
         - I131 Treatment: Whether patient is undergoing I131 treatment
-        - Query Hypothyroid: Whether patient believes they have hypothyroid (bool)
-        - Query Hyperthyroid: Whether patient believes they have hyperthyroid (bool)
-        - Lithium: Whether patient takes lithium (bool)
-        - Goitre: Whether patient has goitre (bool)
-        - Tumor: Whether patient has tumor (bool)
-        - Hypopituitary: Whether patient has hyperpituitary gland (float)
-        - Psych: Whether patient is psych (bool)
-        - TSH: TSH level in blood from lab work (float)
-        - T3: T3 level in blood from lab work (float)
-        - TT4: TT4 level in blood from lab work (float)
-        - T4U: T4U level in blood from lab work (float)
-        - FTI: FTI level in blood from lab work (float)
+        - Query Hypothyroid: Whether patient believes they have hypothyroid
+        - Query Hyperthyroid: Whether patient believes they have hyperthyroid 
+        - Lithium: Whether patient takes lithium 
+        - Goitre: Whether patient has goitre 
+        - Tumor: Whether patient has tumor 
+        - Hypopituitary: Whether patient has hyperpituitary gland 
+        - Psych: Whether patient is psych 
+        - TSH: TSH level in blood from lab work 
+        - T3: T3 level in blood from lab work 
+        - TT4: TT4 level in blood from lab work 
+        - T4U: T4U level in blood from lab work 
+        - FTI: FTI level in blood from lab work 
     """)
 
     # Input fields
